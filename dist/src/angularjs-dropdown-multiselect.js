@@ -90,7 +90,7 @@
 				searchFilter: '=?',
 				translationTexts: '=',
 				disabled: '=',
-				customTexts: '=
+				customTexts: '='
 			},
 			transclude: {
 				toggleDropdown: '?toggleDropdown'
