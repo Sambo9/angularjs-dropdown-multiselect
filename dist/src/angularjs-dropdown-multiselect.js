@@ -89,7 +89,8 @@
 				events: '=',
 				searchFilter: '=?',
 				translationTexts: '=',
-				disabled: '='
+				disabled: '=',
+				customTexts: '=
 			},
 			transclude: {
 				toggleDropdown: '?toggleDropdown'
@@ -190,17 +191,17 @@
 		};
 
 		var texts = {
-			checkAll: 'Check All',
-			uncheckAll: 'Uncheck All',
-			selectionCount: 'checked',
-			selectionOf: '/',
-			searchPlaceholder: 'Search...',
-			buttonDefaultText: 'Select',
-			dynamicButtonTextSuffix: 'checked',
-			disableSearch: 'Disable search',
-			enableSearch: 'Enable search',
-			selectGroup: 'Select all:',
-			allSelectedText: 'All'
+			checkAll: $scope.customTexts.checkAll,
+			uncheckAll: $scope.customTexts.uncheckAll,
+			selectionCount: $scope.customTexts.selectionCount,
+			selectionOf: $scope.customTexts.selectionOf,
+			searchPlaceholder: $scope.customTexts.searchPlaceholder,
+			buttonDefaultText: $scope.customTexts.buttonDefaultText,
+			dynamicButtonTextSuffix: $scope.customTexts.dynamicButtonTextSuffix,
+			disableSearch: $scope.customTexts.disableSearch,
+			enableSearch: $scope.customTexts.enableSearch,
+			selectGroup: $scope.customTexts.selectGroup,
+			allSelectedText: $scope.customTexts.allSelectedText
 		};
 
 		var input = {
